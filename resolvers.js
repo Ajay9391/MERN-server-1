@@ -13,7 +13,7 @@ const resolvers = {
             const {name,email,password}=input;
             if(!name || !email || !password){
                 throw new Error('Enter all the fields')
-            }
+            }aaaaaaa
             const newUser = new User({name,email,
                 password});
            return await newUser.save();
